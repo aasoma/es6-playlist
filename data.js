@@ -27,7 +27,7 @@ const data = [
     {
         artist:'Joey Trap',
         genre:'Rap',
-        song:'I Got Top In Bakini Bottom',
+        song:'I Got 🅱️op In Bakini Bottom',
         image:'https://images.shazam.com/coverart/t364529121-b1256909498_s400.jpg'
     },
     {
