@@ -9,9 +9,11 @@ const playlist = data.filter(songs => {
   })
   .map(songs => {
     return `
+    <div class = "song-container">
     <img class = "image" src = "${songs.image}"/>
-     <div>Name:${songs.song}</div>
-     <div>Artist:${songs.artist}</div>
+    <div>Name:${songs.song}</div>
+    <div>Artist:${songs.artist}</div>
+    </div>
     `;
   })
   .join('');
@@ -21,9 +23,11 @@ const playlist = data.filter(songs => {
   })
   .map(songs=> {
     return `
+    <div class = "song-container">
     <img class = "image" src = "${songs.image}"/>
     <div>Name:${songs.song}</div>
     <div>Artist:${songs.artist}</div>
+    </div>
     `;
   })
   .join('');
